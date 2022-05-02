@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Styles2.css" >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="phot4">
+    <header>g</header>
+    <ul>
+
+        <li> <a href="in1.html">HOME</a></li>
+        <li> <a>ACTIVITIES</a>
+        <ul>
+            <li> <a href="in2.html">CONFERENCE</a></li>
+            <li> <a href="in3.html" > OTHERS</a></li>
+    
+    
+        </ul>
+        </li>
+        <li> <a >BOOKINGS</a></li>
+        <li> <a >ABOUT</a>
+            <ul><li> <a href="in5.html"> MISSION</a></li>
+                <li> <a href="in6.html"> VISION</a></li>
+                <li> <a href="in7.html" > GENERAL</a></li>
+            </ul>
+            
+    
+    
+    
+        </li>
+    
+    
+    </ul>
+    <form id="bform" action="in8.html">
+        <div>
+            <label for=" fname"> First name</label><br>
+            <input type="text" id="fname" name="First name"  placeholder="Alvan">
+        </div><br>
+        <div>
+            <label for=" lname"> Last name</label><br>
+            <input type="text" id="lname" name="Last name"  placeholder="Enock">
+        </div><Br>
+        <div>
+            <label for=" num"> Tel</label>
+            <input type="tel" id="num" name="tel"  placeholder="0701702937">
+        </div><br>
+        <div>
+            <label for=" mail">Email</label>
+            <input type="email" id="mail" name="Email"  placeholder="Idealalvan@gmail.com"> 
+
+        </div><br>
+       Select gender
+        <div>
+            <label   for="Male "> Male</label>
+            <input  type="radio" id="Male" name="gender"  >
+
+        </div>
+        <div>
+            
+            <label   for="Female "> Female</label>
+            <input  type="radio" id="Female" name="gender"  >
+            
+        </div><br>
+        <div>
+             
+            <label for="coun">Select your country</label><br>
+            <select id="coun" name="country" >
+                <option>Kenya</option>
+                <option>Usa</option>
+                <option>Uk</option>
+                <option>Spain</option>
+                <option>France</option>
+                <option>Germany</option>
+             </select>
+        </div><br>
+        Select  services
+
+        <div>
+            <label for="Acc"> accomodation</label>
+            <input type="checkbox" id="Acc" name="Accomodation" value="selected">
+        </div>
+        <div>
+            <label for="Spa"> Spa</label>
+            <input type="checkbox" id="Spa" name="Spa" value="selected">
+        </div>
+        <div>
+            <label for="wat"> Water sports</label>
+            <input type="checkbox" id="wat" name="Water sports" value="selected">
+        </div>
+        <div>
+            <label for="con"> Conference</label>
+            <input type="checkbox" id="con" name="Conference" value="selected">
+        </div>
+        <div>
+            <label for="tu">Camping </label>
+            <input type="checkbox" id="tu" name="Camping" value="selected">
+        </div><br>
+        <div>
+            <button  type="reset" onclick="func">RESET</button>
+            <button  type="submit">SUBMIT</button>
+
+
+        </div>        
+    </form>
+    <script>
+        function func() {
+            document.getElementById("bform").submit();
+        }
+    </script>
+    <footer>t</footer>   
+</body>
+</html>
